@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="WiimoteLib">
+      <HintPath>..\..\..\..\Desktop\WiiBalanceWalker_v0.4\stc\WiiBalanceWalker_v0.4\WiiBalanceWalker\WiimoteLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
